@@ -1,0 +1,62 @@
+
+.container {
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-profile {
+    text-align: center;
+    color: rgb(45, 45, 129);
+    font-family: sans-serif;
+}
+
+.container-summary, .container-education,
+ .container-navigation-bar, .container-experience{
+    color: rgb(45, 45, 129);
+    font-family: sans-serif;  
+}
+
+div {
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    height: 30vh;
+}
+
+button {
+    text-shadow: 2px 2px 10px red;
+    background-color: rgb(41, 41, 143);
+    color: #ffffff;
+    border-radius: 10px ;
+    padding: 10px;
+    margin: 15%;
+    cursor: pointer;
+}
+
+.company-location {
+    padding-left: 15%;
+}
+
+.working-hours {
+    color: black;
+    float: right;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(16, 239, 165);
+    border: 1px solid black;
+}
+
+.duration{
+    float: right;
+   
+}
+
+.company-name,.institute-name,
+.duration, .company-location {
+    color: rgb(158, 182, 202);
+}
